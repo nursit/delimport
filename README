@@ -5,7 +5,7 @@
  * to reimport in browser or new delicious account
  * or any bookmark web service
  *
- * Put this file in directory squelettes/action/delimport.php
+ * Put the action directory in directory named squelettes/
  * of your SPIP installation
  * Change xxxx to the name of the delicious user to import in following line
  * $base = "http://delicious.com/xxxx";
