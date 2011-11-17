@@ -1,0 +1,17 @@
+ * This script need SPIP http://www.spip.net/ to be used
+ *
+ * Import Public bookmarks from http://delicious.com/xxxx
+ * into a tmp/bookmarks.html file that can be used
+ * to reimport in browser or new delicious account
+ * or any bookmark web service
+ *
+ * Put this file in directory squelettes/action/delimport.php
+ * of your SPIP installation
+ * Change xxxx to the name of the delicious user to import in following line
+ * $base = "http://delicious.com/xxxx";
+ *
+ * then launch /spip.php?action=delimport from your SPIP site
+ * in case of timeout, relaunch until "End" is displayed
+ *
+ * The result is in the file tmp/bookmarks.html
+
